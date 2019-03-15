@@ -58,9 +58,6 @@ p {
   max-width: 960px;
   width: 100px;
   margin: auto;
- 
-
-
 }
 
 .d-flex {
@@ -151,8 +148,6 @@ p {
   display: flex;
   margin: 0 -16px;
 }
-
-
 .articles img {
   width: 100%;
 }
@@ -220,26 +215,21 @@ p {
   border-radius: 30px;
   background: #00ffdf;
   
-
 }
-
 .navigation-list ul{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .navigation-list li{
   padding: 0 10px;
   font-size: 16px;
   font-weight: bold;
 
 }
-
 .navigation-list li.is-active a {
     color:#7d53ff;
 }
-
 .navigation-list a {
   color: #979797;
 }
