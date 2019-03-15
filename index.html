@@ -15,7 +15,7 @@
     <header class="header">
       <div class="container d-flex j-content-beet a-items-center">
         <a href=""><img src="assets/images/logo.png" alt=""></a>
-        <div>
+        <div class="box">
           <input type="text" placeholder="Buscar">
           <button class="icon-search"><img src="./assets/images/icon-search.png" alt=""></button>
         </div>
@@ -231,12 +231,46 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container d-flex j-content-beet">
         <p>Todos los derechos reservados 2019</p>
         <p>Creado por: Roxana</p>
       </div>
 
     </footer>
+
+    <!--modal-->
+    <div class="modal modal-small">
+      <div class="modal-inner">
+        <span class="close">X</span>
+        <h2>Quieres recibir informaciòn?
+        </h2>
+        <div class="row d-flex">
+          <div class="col-left">
+            <figure>
+              <img src="https://loremflickr.com/236/340/dog" alt="dog">
+            </figure>
+          </div>
+          <div class="col-right">
+            <p>
+              Si deseas recibir noticias sobre nuestras publicaciones dejanos tus datos
+            </p>
+            <div class="form-modal">
+              <form action="">
+                <div class="row-form">
+                  <input class="js_name" type="text" placeholder="Nombre">
+                  <input class="js_correo" type="text" placeholder="Correo">
+                </div>
+                <div class="row-form">
+                  <button class="js_submit" type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </body>
 
